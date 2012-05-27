@@ -59,7 +59,8 @@ object AndroidBuild extends Build {
                AndroidTest.androidSettings ++
                General.proguardSettings ++
                General.pathSettings ++ Seq (
-      name := "$name$Tests"
+      name := "$name$Tests",
+      manifestPath in Android <<= (baseDirectory,manifestName in Android).map{(d,m) => Seq(d / m)}
     )
   ) dependsOn main
 }

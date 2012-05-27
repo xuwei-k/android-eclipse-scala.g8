@@ -4,5 +4,6 @@
 #> android:package-debug
 > project tests
 > eclipse
+> test
 # TODO java.lang.OutOfMemoryError: Java heap space :(
 #> android:package-debug
