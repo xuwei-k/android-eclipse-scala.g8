@@ -1,10 +1,7 @@
 import $package$
-import org.scalatest.matchers.ShouldMatchers
-import org.scalatest.FunSpec
+import org.specs2.Specification
 
-class Specs extends FunSpec with ShouldMatchers {
-  describe("a spec") {
-    it("should do something") {
-    }
-  }
+class Specs extends Specification{ def is =
+  "test" ^
+  end
 }

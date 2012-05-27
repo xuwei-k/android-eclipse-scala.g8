@@ -1,6 +1,7 @@
 target
 project/target
 project/project/target
+tests/target
 .DS_Store
 *.class
 *.jar

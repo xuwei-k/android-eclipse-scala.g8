@@ -1,0 +1,2 @@
+alias devicetest = ;project $name$;android:package-debug;android:install-device;project tests;android:package-debug;android:install-device;android:test-device
+alias emulatortest = ;project $name$;android:package-debug;android:install-emulator;project tests;android:package-debug;android:install-emulator;android:test-emulator
